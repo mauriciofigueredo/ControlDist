@@ -62,6 +62,8 @@ dependencies {
     //FireStore
     implementation(platform("com.google.firebase:firebase-bom:34.6.0"))
 
+    implementation("com.google.firebase:firebase-auth")
+
     //Navigation
     val nav_version = "2.5.3"
     implementation("androidx.navigation:navigation-compose:$nav_version")
