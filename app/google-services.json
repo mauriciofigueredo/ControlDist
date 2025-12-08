@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31628969290",
+    "project_id": "controldist-a1b6c",
+    "storage_bucket": "controldist-a1b6c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31628969290:android:4bbbbb8bfadd36c73c6db3",
+        "android_client_info": {
+          "package_name": "com.mst.controldist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Gorsy8-TIknB0us3ncWR_FVcBNiOLdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
