@@ -71,9 +71,9 @@ fun LoginView(navController: NavController, loginVM: LoginViewModel) {
 
         Button(
             onClick = {
-                //loginVM.login(email, password) {
-                  //  navController.navigate("Home")
-                //}
+                loginVM.login(email, password) {
+                  navController.navigate("Home")
+                }
             }, modifier = Modifier
                 .fillMaxWidth()
                 .padding(start = 30.dp, end = 30.dp)

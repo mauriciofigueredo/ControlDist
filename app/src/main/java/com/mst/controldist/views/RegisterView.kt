@@ -25,6 +25,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.mst.controldist.components.Alert
 import com.mst.controldist.viewModels.LoginViewModel
 
 
@@ -77,9 +78,9 @@ fun RegisterView(navController: NavController, loginVM: LoginViewModel) {
 
         Button(
             onClick = {
-//                loginVM.createUser(email,password,username){
-//                    navController.navigate("Home")
-//                }
+                loginVM.createUser(email,password,username){
+                    navController.navigate("Home")
+                }
           },
                 modifier = Modifier
                 .fillMaxWidth()
@@ -88,13 +89,13 @@ fun RegisterView(navController: NavController, loginVM: LoginViewModel) {
             Text(text = "Registrarse")
         }
 
-//        if (loginVM.showAlert) {
-//            Alert(title = "Alerta",
-//                message = "Usuario no creado",
-//                confirmText = "Aceptar",
-//                onConfirmClick = { loginVM.closeAlert() }) {
-//            }
-//        }
+        if (loginVM.showAlert) {
+            Alert(title = "Alerta",
+                message = "Usuario no creado",
+                confirmText = "Aceptar",
+                onConfirmClick = { loginVM.closeAlert() }) {
+            }
+        }
 
 
     }
