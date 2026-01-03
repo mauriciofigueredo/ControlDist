@@ -2,6 +2,7 @@ package com.mst.controldist.navigation
 
 
 
+import HomeView
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -9,7 +10,6 @@ import androidx.navigation.compose.rememberNavController
 import com.mst.controldist.viewModels.CamViewModel
 import com.mst.controldist.viewModels.LoginViewModel
 import com.mst.controldist.views.Blank
-import com.mst.controldist.views.HomeView
 import com.mst.controldist.views.TabsView
 
 
